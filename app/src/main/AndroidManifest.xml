@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.informatika.firdaushermawan_19100018_kalkulator">
+
+    <application
+        android:allowBackup="true"
+        android:label="kalkulator"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.informatika.firdaushermawan_19100018_kalkulator.SplashScreen"
+            android:label="kalkulator"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.informatika.firdaushermawan_19100018_kalkulator.RegisterActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.informatika.firdaushermawan_19100018_kalkulator.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.informatika.firdaushermawan_19100018_kalkulator.UpdateDataActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.informatika.firdaushermawan_19100018_kalkulator.InsertDataActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.informatika.firdaushermawan_19100018_kalkulator.MainActivity"
+            android:label="@string/title_activity_login" />
+    </application>
+
+</manifest>
